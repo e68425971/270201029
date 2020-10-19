@@ -1,0 +1,5 @@
+print("we will calculate a hypotenuse choose 2 value for perpendicular edges")
+x1=float(input("first one is? "))
+x2=float(input("second one is? "))
+hypotenuse = ( ((x1)**2) + ((x2)**2) )**(1/2)
+print(f"hypotenuse is {hypotenuse}")
