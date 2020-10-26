@@ -5,7 +5,7 @@ if 6 > age or age > 60:
   print("you are free, Next")
 
 elif 18 > age > 6:
-  price= price / 2
+  price = price / 2
   print(f"discount price is {price}tl")
 
 else:
