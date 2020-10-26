@@ -1,0 +1,5 @@
+numbers=input("Write three numbers with space(e.g. 8 7 5): ")
+listNumbers = numbers.split(" ")
+listNumbers.sort(reverse=False)
+print(listNumbers)
+print("minumum value is in your selection number" +" "+str(listNumbers[0]))
