@@ -1,9 +1,10 @@
 dict = {}
-counter = 0
+
 books = ["ULYSSES", "ANIMAL FARM", "BRAVE NEW WORLD", "ENDER'S GAME"]
 listTuple = []
 for book in books:
   first = len(book)
+  counter = 0
   for letter in book:
     if book.count(letter) == 1:
       counter += 1
