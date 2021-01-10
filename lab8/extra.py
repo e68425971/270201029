@@ -1,6 +1,6 @@
 """Burada 'memorization'dan bahsedeceğiz. Memorization bazı tekniklerle hafızayı manüpüle etmektir.
 Buradaki recursionı yormamak adına eğer daha önceden o değer hesaplandıysa onu bir sözlüğe atıp
-gerektiğinde onu sözlükten çekip hesaplamayı tekrarlamaya gerek kalmdan dönebilmektir"""
+gerektiğinde onu sözlükten çekip hesaplamayı tekrarlamaya gerek kalmadan dönebilmektir"""
 
 fiboCache = {}
 
